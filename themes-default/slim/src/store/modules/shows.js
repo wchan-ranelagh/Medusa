@@ -340,7 +340,7 @@ const actions = {
             const { getShowById } = getters;
             const show = getShowById({ id, indexer });
 
-            const limit = 1000;
+            const limit = 10000;
             const params = {
                 limit
             };
